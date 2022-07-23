@@ -1,6 +1,6 @@
 <meta name="google-site-verification" content="VWM3VeSm3HkR2hBbPvXXgfg-1xdX-yjpBqDkNXAJSsc" />
 
-# YOLO-v1 in Pytorch Lightning
+# YOLO-v1 Implementation in Pytorch Lightning
 
 
 
