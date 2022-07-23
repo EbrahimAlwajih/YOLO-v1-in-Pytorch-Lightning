@@ -355,13 +355,3 @@ if __name__=='__main__':
         #model = LitYolov1.load_from_checkpoint(checkpoint_path=checkpoint_callback.best_model_path,split_size=7, num_boxes=2, num_classes=20)
        
     trainer.test(model=model, dataloaders=test_loader)
-
-    
-        # trainer = pl.Trainer(
-        # gpus=1,
-        # precision=hparams.precision,
-        # auto_lr_find=hparams.auto_lr,
-        # auto_scale_batch_size=hparams.auto_batch_size,
-        # max_epochs=hparams.epochs,
-        # callbacks=[checkpoint_callback],
-    # )  
